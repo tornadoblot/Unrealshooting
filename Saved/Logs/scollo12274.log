@@ -1,0 +1,1364 @@
+﻿[2016.01.09-04.22.21:851][  0]Log file open, 01/09/16 13:22:21
+[2016.01.09-04.22.21:851][  0]LogInit:Display: Running engine for game: scollo12274
+[2016.01.09-04.22.21:851][  0]LogInit:Display: RandInit(-1928903310) SRandInit(-1928903310).
+[2016.01.09-04.22.21:851][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.01.09-04.22.21:851][  0]LogStats: Stats thread started at 0.072010
+[2016.01.09-04.22.21:851][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.09-04.22.21:851][  0]LogInit: API Version: 2672455
+[2016.01.09-04.22.21:851][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.09-04.22.21:851][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.09-04.22.21:851][  0]LogInit: Build Configuration: Development
+[2016.01.09-04.22.21:851][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.09-04.22.21:851][  0]LogInit: Command line: 
+[2016.01.09-04.22.21:851][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.09-04.22.21:851][  0]LogInit: Rocket: 1
+[2016.01.09-04.22.21:861][  0]LogInit: Using libcurl 7.41.0
+[2016.01.09-04.22.21:861][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.09-04.22.21:861][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.09-04.22.21:861][  0]LogInit:  - other features:
+[2016.01.09-04.22.21:861][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.09-04.22.21:861][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.09-04.22.21:861][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.09-04.22.21:861][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.09-04.22.21:861][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.09-04.22.21:862][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.09-04.22.21:862][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.09-04.22.21:862][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.09-04.22.21:862][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.09-04.22.21:862][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.09-04.22.21:870][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.09-04.22.21:879][  0]LogInit: Object subsystem initialized
+[2016.01.09-04.22.21:882][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.09-04.22.21:882][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.09-04.22.21:898][  0]LogInit: Computer: STL_1-1_PC
+[2016.01.09-04.22.21:898][  0]LogInit: User: Administrator
+[2016.01.09-04.22.21:898][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.01.09-04.22.21:898][  0]LogInit: High frequency timer resolution =2.435800 MHz
+[2016.01.09-04.22.21:898][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.09-04.22.21:898][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.09-04.22.21:898][  0]LogMemory: Process Physical Memory: 54.52 MB used, 54.52 MB peak
+[2016.01.09-04.22.21:898][  0]LogMemory: Process Virtual Memory: 56.52 MB used, 56.52 MB peak
+[2016.01.09-04.22.21:898][  0]LogMemory: Physical Memory: 3263.44 MB used, 8114.86 MB total
+[2016.01.09-04.22.21:898][  0]LogMemory: Virtual Memory: 338.77 MB used, 8388608.00 MB total
+[2016.01.09-04.22.21:942][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2016.01.09-04.22.22:015][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2016.01.09-04.22.22:016][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2016.01.09-04.22.22:016][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2016.01.09-04.22.22:404][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.01.09-04.22.22:404][  0]LogD3D11RHI: Adapter has 1976MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.01.09-04.22.22:427][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 740M  (Feature Level 11_0)
+[2016.01.09-04.22.22:427][  0]LogD3D11RHI: Adapter has 1976MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2016.01.09-04.22.22:427][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.09-04.22.22:435][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.09-04.22.22:435][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.09-04.22.22:453][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.09-04.22.22:463][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../MJY/scollo12274/Intermediate/Shaders/WorkingDirectory/4844/).
+[2016.01.09-04.22.22:463][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../MJY/scollo12274/Intermediate/Shaders/tmp/73898D3140F592A29A979ABF887149E2/'.
+[2016.01.09-04.22.22:463][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.09-04.22.23:859][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.09-04.22.23:866][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.09-04.22.23:872][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.09-04.22.23:881][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.09-04.22.23:887][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.09-04.22.23:893][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.09-04.22.23:897][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.09-04.22.23:902][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.09-04.22.23:907][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.09-04.22.23:912][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.09-04.22.23:917][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.09-04.22.23:921][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.09-04.22.23:922][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.09-04.22.23:941][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.09-04.22.23:946][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.09-04.22.23:950][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.09-04.22.23:955][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.09-04.22.23:955][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.09-04.22.24:056][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.09-04.22.24:125][  0]LogDerivedDataCache: Loaded boot cache 0.07s 41MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.09-04.22.24:125][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.09-04.22.24:126][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../MJY/scollo12274/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.09-04.22.24:126][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.09-04.22.24:126][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../MJY/scollo12274/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.09-04.22.24:126][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.09-04.22.24:302][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.09-04.22.24:313][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.09-04.22.24:551][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.09-04.22.24:552][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.09-04.22.24:579][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.09-04.22.24:579][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.09-04.22.25:096][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.09-04.22.26:008][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.09-04.22.26:115][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2016.01.09-04.22.26:382][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.01.09-04.22.26:383][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.01.09-04.22.26:396][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.01.09-04.22.26:415][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.01.09-04.22.26:630][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.22.26:725][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.01.09-04.22.26:725][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2016.01.09-04.22.26:800][  0]LogEngine: Initializing Engine...
+[2016.01.09-04.22.26:803][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.09-04.22.26:804][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.09-04.22.26:996][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.09-04.22.27:000][  0]LogInit: XAudio2 using '스피커(VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.09-04.22.27:050][  0]LogInit: FAudioDevice initialized.
+[2016.01.09-04.22.27:084][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.09-04.22.27:094][  0]LogInit: Texture streaming: Enabled
+[2016.01.09-04.22.27:103][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.09-04.22.27:103][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.09-04.22.27:103][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 13807bf64bfe20bb019372b26bfd1ac0|8f1c7c08b8214b3999da66b342f386cf|492bc008-f341-4a5a-b2f7-6dce15993e9e
+[2016.01.09-04.22.27:103][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.09-04.22.27:134][  0]LogInit: Transaction tracking system initialized
+[2016.01.09-04.22.27:179][  0]BlueprintLog: New page: 에디터 로드
+[2016.01.09-04.22.27:767][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2016.01.09-04.22.27:885][  0]LogConsoleResponse:Display: 
+[2016.01.09-04.22.28:109][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.09-04.22.28:197][  0]LogFileCache: Scanning file cache for directory 'C:/MJY/scollo12274/Content/' took 0.02s
+[2016.01.09-04.22.28:205][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.01.09-04.22.28:205][  0]Cmd: MAP LOAD FILE="../../../../../../MJY/scollo12274/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.09-04.22.28:216][  0]LightingResults: New page: 라이팅 빌드
+[2016.01.09-04.22.28:220][  0]MapCheck: New page: 맵 체크
+[2016.01.09-04.22.28:220][  0]LightingResults: New page: 라이팅 빌드
+[2016.01.09-04.22.28:248][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F0CA160
+[2016.01.09-04.22.28:276][  0]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.22.28:288][  0]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.22.28:308][  0]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.22.28:320][  0]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.22.28:332][  0]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.22.28:339][  0]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.22.28:349][  0]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.22.28:361][  0]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.22.30:158][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.01.09-04.22.30:175][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.09-04.22.30:176][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.09-04.22.30:264][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 88.608ms.
+[2016.01.09-04.22.30:265][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 2.059
+[2016.01.09-04.22.30:370][  0]LogCollectionManager: Loaded 0 collections in 0.003141 seconds
+[2016.01.09-04.22.30:402][  0]LogFileCache: Scanning file cache for directory 'C:/MJY/scollo12274/Saved/Collections/' took 0.01s
+[2016.01.09-04.22.30:402][  0]LogFileCache: Scanning file cache for directory 'C:/MJY/scollo12274/Content/Developers/Administrator/Collections/' took 0.01s
+[2016.01.09-04.22.30:402][  0]LogFileCache: Scanning file cache for directory 'C:/MJY/scollo12274/Content/Collections/' took 0.00s
+[2016.01.09-04.22.30:402][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 1867 classes and 333 folders.
+[2016.01.09-04.22.30:412][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.01.09-04.22.30:421][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.01.09-04.22.30:814][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.01.09-04.22.30:892][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.01.09-04.22.31:024][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.09-04.22.31:062][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2016.01.09-04.22.31:090][  0]LogLoad: Full Startup: 9.96 seconds (BP compile: 0.15 seconds)
+[2016.01.09-04.22.31:673][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.09-04.22.31:855][  0]LogRenderer: Reallocating scene render targets to support 1164x896 (Frame:2).
+[2016.01.09-04.22.32:715][  5]LogAssetRegistry: Asset discovery search completed in 6.6098 seconds
+[2016.01.09-04.22.32:715][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.09-04.22.32:715][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2016.01.09-04.22.48:468][221]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.01.09-04.22.48:468][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.09-04.22.48:469][221]PIE: New page: PIE 세션: SideScrollerExampleMap (2016. 1. 9. 오후 10:22:48)
+[2016.01.09-04.22.48:470][221]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.01.09-04.22.48:548][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078123s)
+[2016.01.09-04.22.48:550][221]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.01.09-04.22.48:550][221]LogPlayLevel: PIE: World Init took: (0.002106s)
+[2016.01.09-04.22.48:551][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.080929s)
+[2016.01.09-04.22.48:641][221]LogInit: XAudio2 using '스피커(VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.09-04.22.48:675][221]LogInit: FAudioDevice initialized.
+[2016.01.09-04.22.48:797][221]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.01.09-04.22.48:813][221]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2016.01.09-13.22.48
+[2016.01.09-04.22.48:813][221]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.22.48:814][221]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.22.48:816][221]LogWorld: Bringing up level for play took: 0.016405
+[2016.01.09-04.22.48:892][221]PIE: 정보 /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 에 대한 에디터에서 플레이 시작 시간: 1.081
+[2016.01.09-04.22.48:894][221]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.01.09-04.22.48:965][222]LogRenderer: Reallocating scene render targets to support 1280x896 (Frame:289).
+[2016.01.09-04.22.56:378][344]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.01.09-04.22.56:458][344]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.01.09-04.22.56:498][344]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000228A9760
+[2016.01.09-04.22.59:619][389]LogAIModule: Creating AISystem for world Map
+[2016.01.09-04.22.59:684][389]Cmd: MAP LOAD FILE="../../../../../../MJY/scollo12274/Content/Map/Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.09-04.22.59:684][389]LightingResults: New page: 라이팅 빌드
+[2016.01.09-04.22.59:733][389]LoadErrors: New page: 맵 로드중: Map.umap
+[2016.01.09-04.22.59:735][389]MapCheck: New page: 맵 체크
+[2016.01.09-04.22.59:735][389]LightingResults: New page: 라이팅 빌드
+[2016.01.09-04.22.59:779][389]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000102558A0
+[2016.01.09-04.22.59:877][389]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.09-04.22.59:975][389]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.09-04.23.00:089][389]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 114.109ms.
+[2016.01.09-04.23.00:092][389]LogFileHelpers: Loading map 'Map' took 0.410
+[2016.01.09-04.23.03:372][437]LogAIModule: Creating AISystem for world test
+[2016.01.09-04.23.03:373][437]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Map/test.test:PersistentLevel.BP_bomb_C_0.P_Fire
+[2016.01.09-04.23.03:376][437]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Map/test.test:PersistentLevel.BP_bomb_C_0.P_Fire
+[2016.01.09-04.23.03:377][437]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/Map/test.test:PersistentLevel.BP_bomb_C_0.P_Fire
+[2016.01.09-04.23.03:434][437]Cmd: MAP LOAD FILE="../../../../../../MJY/scollo12274/Content/Map/test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.09-04.23.03:434][437]LightingResults: New page: 라이팅 빌드
+[2016.01.09-04.23.03:456][437]LoadErrors: New page: 맵 로드중: test.umap
+[2016.01.09-04.23.03:456][437]MapCheck: New page: 맵 체크
+[2016.01.09-04.23.03:457][437]LightingResults: New page: 라이팅 빌드
+[2016.01.09-04.23.03:484][437]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000136777E0
+[2016.01.09-04.23.03:564][437]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.09-04.23.03:604][437]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.09-04.23.03:662][437]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 57.7ms.
+[2016.01.09-04.23.03:662][437]LogFileHelpers: Loading map 'test' took 0.230
+[2016.01.09-04.23.05:898][466]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/test.test:PersistentLevel' has LevelScriptBlueprint '/Game/Map/test.test:PersistentLevel.test' with GeneratedClass '/Game/Map/test.test_C' with ClassGeneratedBy '/Game/Map/test.test:PersistentLevel.test'
+[2016.01.09-04.23.05:898][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.09-04.23.05:898][466]PIE: New page: PIE 세션: test (2016. 1. 9. 오후 10:23:05)
+[2016.01.09-04.23.05:898][466]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_test
+[2016.01.09-04.23.05:905][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006946s)
+[2016.01.09-04.23.05:906][466]LogAIModule: Creating AISystem for world test
+[2016.01.09-04.23.05:906][466]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2016.01.09-04.23.05:906][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/test.test to /Game/Map/UEDPIE_0_test.test (0.007890s)
+[2016.01.09-04.23.05:906][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.23.05:936][466]LogInit: XAudio2 using '스피커(VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.09-04.23.05:949][466]LogInit: FAudioDevice initialized.
+[2016.01.09-04.23.05:990][466]LogWorld: Game class is 'BP_Gamemode_C'
+[2016.01.09-04.23.05:995][466]LogWorld: Bringing World /Game/Map/UEDPIE_0_test.test up for play (max tick rate 60) at 2016.01.09-13.23.05
+[2016.01.09-04.23.05:995][466]LogActor:Warning: GameSession /Game/Map/UEDPIE_0_test.test:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.23.05:995][466]LogActor:Warning: GameNetworkManager /Game/Map/UEDPIE_0_test.test:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.23.05:996][466]LogWorld: Bringing up level for play took: 0.004827
+[2016.01.09-04.23.06:032][466]PIE: 정보 /Game/Map/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: 0.221
+[2016.01.09-04.23.06:033][466]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/test.test:PersistentLevel' has LevelScriptBlueprint '/Game/Map/test.test:PersistentLevel.test' with GeneratedClass '/Game/Map/test.test_C' with ClassGeneratedBy '/Game/Map/test.test:PersistentLevel.test'
+[2016.01.09-04.23.07:181][482]LogBlueprintUserMessages: [BP_Charater_C_0] 10
+[2016.01.09-04.23.08:099][495]LogBlueprintUserMessages: [BP_Charater_C_0] 20
+[2016.01.09-04.23.08:844][505]LogBlueprintUserMessages: [BP_Charater_C_0] 30
+[2016.01.09-04.23.09:623][516]LogBlueprintUserMessages: [BP_Charater_C_0] 40
+[2016.01.09-04.23.11:204][538]LogBlueprintUserMessages: [BP_Charater_C_0] 50
+[2016.01.09-04.23.11:560][543]LogBlueprintUserMessages: [BP_Charater_C_0] 60
+[2016.01.09-04.23.12:478][556]LogBlueprintUserMessages: [BP_Charater_C_0] 70
+[2016.01.09-04.23.12:665][559]LogBlueprintUserMessages: [BP_Charater_C_0] 80
+[2016.01.09-04.23.13:117][566]LogBlueprintUserMessages: [BP_Charater_C_0] 90
+[2016.01.09-04.23.13:675][574]LogBlueprintUserMessages: [BP_Charater_C_0] 140
+[2016.01.09-04.23.13:678][574]LogBlueprintUserMessages: [BP_Charater_C_0] 150
+[2016.01.09-04.23.13:974][578]LogBlueprintUserMessages: [BP_Charater_C_0] 160
+[2016.01.09-04.23.14:398][584]LogBlueprintUserMessages: [BP_Charater_C_0] 170
+[2016.01.09-04.23.15:426][599]LogBlueprintUserMessages: [BP_Charater_C_0] 180
+[2016.01.09-04.23.15:663][603]LogBlueprintUserMessages: [BP_Charater_C_0] 230
+[2016.01.09-04.23.15:951][608]LogBlueprintUserMessages: [BP_Charater_C_0] 240
+[2016.01.09-04.23.16:260][613]LogBlueprintUserMessages: [BP_Charater_C_0] 250
+[2016.01.09-04.23.16:458][616]LogBlueprintUserMessages: [BP_Charater_C_0] 260
+[2016.01.09-04.23.17:238][628]LogBlueprintUserMessages: [BP_Charater_C_0] 270
+[2016.01.09-04.23.18:076][641]LogBlueprintUserMessages: [BP_Charater_C_0] 280
+[2016.01.09-04.23.18:446][647]LogBlueprintUserMessages: [BP_Charater_C_0] 330
+[2016.01.09-04.23.18:832][653]LogBlueprintUserMessages: [BP_Charater_C_0] 340
+[2016.01.09-04.23.19:292][660]LogBlueprintUserMessages: [BP_Charater_C_0] 350
+[2016.01.09-04.23.20:183][674]LogBlueprintUserMessages: [BP_Charater_C_0] 360
+[2016.01.09-04.23.20:844][685]LogBlueprintUserMessages: [BP_Charater_C_0] 370
+[2016.01.09-04.23.20:963][687]LogBlueprintUserMessages: [BP_Charater_C_0] 380
+[2016.01.09-04.23.21:492][695]LogBlueprintUserMessages: [BP_Charater_C_0] 390
+[2016.01.09-04.23.22:229][707]LogBlueprintUserMessages: [BP_Charater_C_0] 400
+[2016.01.09-04.23.22:351][709]LogBlueprintUserMessages: [BP_Charater_C_0] 450
+[2016.01.09-04.23.23:016][719]LogBlueprintUserMessages: [BP_Charater_C_0] 460
+[2016.01.09-04.23.23:484][725]LogBlueprintUserMessages: [BP_Charater_C_0] 470
+[2016.01.09-04.23.23:846][730]LogBlueprintUserMessages: [BP_Charater_C_0] 480
+[2016.01.09-04.23.24:138][734]LogBlueprintUserMessages: [BP_Charater_C_0] 490
+[2016.01.09-04.23.24:829][744]LogBlueprintUserMessages: [BP_Charater_C_0] 500
+[2016.01.09-04.23.25:114][748]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/test.test:PersistentLevel' has LevelScriptBlueprint '/Game/Map/test.test:PersistentLevel.test' with GeneratedClass '/Game/Map/test.test_C' with ClassGeneratedBy '/Game/Map/test.test:PersistentLevel.test'
+[2016.01.09-04.23.25:212][748]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/test.test:PersistentLevel' has LevelScriptBlueprint '/Game/Map/test.test:PersistentLevel.test' with GeneratedClass '/Game/Map/test.test_C' with ClassGeneratedBy '/Game/Map/test.test:PersistentLevel.test'
+[2016.01.09-04.23.25:266][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024201F80
+[2016.01.09-04.23.35:208][878]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_1
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.23.35:209][878]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_1
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.23.35:209][878]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_1
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.23.35:210][878]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_1
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.23.35:210][878]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_1
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.23.35:211][878]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_1
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.23.40:609][919]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.23.42:422][919]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 107 classes and 0 folders.
+[2016.01.09-04.25.19:142][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.25.19:143][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.25.19:312][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/bp_profile" FILE="../../../../../../MJY/scollo12274/Content/Blueprints/bp_profile.uasset" SILENT=true
+[2016.01.09-04.25.19:460][152]LogSavePackage: Save=118.192383ms
+[2016.01.09-04.25.19:460][152]LogSavePackage: Moving '../../../../../../MJY/scollo12274/Saved/bp_profile6EA949B1438898C4586337B04F738A83.tmp' to '../../../../../../MJY/scollo12274/Content/Blueprints/bp_profile.uasset'
+[2016.01.09-04.25.19:466][152]LogSavePackage: Total save time: 149.942115ms
+[2016.01.09-04.25.19:466][152]LogSavePackage:Warning: Finished SavePackage ../../../../../../MJY/scollo12274/Content/Blueprints/bp_profile.uasset
+[2016.01.09-04.25.22:395][190]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_2
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.25.22:396][190]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_2
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.25.22:396][190]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_2
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.25.22:397][190]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_2
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.25.22:397][190]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_2
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.25.22:398][190]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_2
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.25.41:273][419]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.25.41:275][419]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.25.41:371][419]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027B358A0
+[2016.01.09-04.25.42:943][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/menu" FILE="../../../../../../MJY/scollo12274/Content/Map/menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.09-04.25.43:026][419]LogSavePackage: Save=16.326054ms
+[2016.01.09-04.25.43:028][419]LogSavePackage: Moving '../../../../../../MJY/scollo12274/Saved/menu6013388B444C146446D6E08D79B331BD.tmp' to '../../../../../../MJY/scollo12274/Content/Map/menu.umap'
+[2016.01.09-04.25.43:031][419]LogSavePackage: Total save time: 21.304294ms
+[2016.01.09-04.25.43:031][419]LogSavePackage:Warning: Finished SavePackage ../../../../../../MJY/scollo12274/Content/Map/menu.umap
+[2016.01.09-04.25.43:031][419]LogFileHelpers: Saving map 'menu' took 0.202
+[2016.01.09-04.25.46:085][461]Cmd: MAP LOAD FILE="../../../../../../MJY/scollo12274/Content/Map/menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.09-04.25.46:085][461]LightingResults: New page: 라이팅 빌드
+[2016.01.09-04.25.46:141][461]LoadErrors: New page: 맵 로드중: menu.umap
+[2016.01.09-04.25.46:142][461]MapCheck: New page: 맵 체크
+[2016.01.09-04.25.46:142][461]LightingResults: New page: 라이팅 빌드
+[2016.01.09-04.25.46:224][461]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027B996C0
+[2016.01.09-04.25.46:226][461]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027B35E40
+[2016.01.09-04.25.46:451][461]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.09-04.25.46:452][461]LogAIModule: Creating AISystem for world menu
+[2016.01.09-04.25.46:527][461]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.09-04.25.46:628][461]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 101.369ms.
+[2016.01.09-04.25.46:630][461]LogFileHelpers: Loading map 'menu' took 0.548
+[2016.01.09-04.25.55:076][635]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_3
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.25.55:076][635]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_3
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.25.55:076][635]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_3
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.25.55:077][635]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_3
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.25.55:078][635]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_3
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.25.55:078][635]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_3
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.26.56:064][766]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Administrator/Desktop/rainbow-nebula.jpg)
+[2016.01.09-04.26.56:316][766]LogTexture:Display: 텍스처 빌드중: rainbow-nebula (AutoDXT)
+[2016.01.09-04.27.11:545][138]LogEditorViewport: Clicking Background
+[2016.01.09-04.30.51:924][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.30.51:925][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.30.52:000][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/umg_menu" FILE="../../../../../../MJY/scollo12274/Content/Blueprints/umg_menu.uasset" SILENT=true
+[2016.01.09-04.30.52:011][798]LogSavePackage: Save=10.107562ms
+[2016.01.09-04.30.52:011][798]LogSavePackage: Moving '../../../../../../MJY/scollo12274/Saved/umg_menu52B2158A4CB1A9D55D4142B919A133FB.tmp' to '../../../../../../MJY/scollo12274/Content/Blueprints/umg_menu.uasset'
+[2016.01.09-04.30.52:013][798]LogSavePackage: Total save time: 11.789966ms
+[2016.01.09-04.30.52:013][798]LogSavePackage:Warning: Finished SavePackage ../../../../../../MJY/scollo12274/Content/Blueprints/umg_menu.uasset
+[2016.01.09-04.30.52:026][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/rainbow-nebula" FILE="../../../../../../MJY/scollo12274/Content/rainbow-nebula.uasset" SILENT=true
+[2016.01.09-04.30.52:693][798]LogSavePackage: Save=665.671265ms
+[2016.01.09-04.30.52:693][798]LogSavePackage: Moving '../../../../../../MJY/scollo12274/Saved/rainbow-nebulaB7BB07E1404889613B60F6B72F7F7E82.tmp' to '../../../../../../MJY/scollo12274/Content/rainbow-nebula.uasset'
+[2016.01.09-04.30.52:694][798]LogSavePackage: Total save time: 667.296577ms
+[2016.01.09-04.30.52:694][798]LogSavePackage:Warning: Finished SavePackage ../../../../../../MJY/scollo12274/Content/rainbow-nebula.uasset
+[2016.01.09-04.30.56:063][920]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_4
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.30.56:063][920]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_4
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.30.56:063][920]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_4
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.30.56:063][920]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_4
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.30.56:063][920]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_4
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.30.56:063][920]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_4
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.31.25:615][995]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.31.25:615][995]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.01.09-04.31.25:618][995]LogPlayLevel: [PlayLevel] Compiling menu before play...
+[2016.01.09-04.31.25:622][995]LogBlueprint:Error: [compiler menu] 오류 이 블루프린트(self)는 UserWidget 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.01.09-04.31.25:712][995]LogBlueprint:Warning: [compiler menu] 경고 [0544.58] menu 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 91 ms]
+[2016.01.09-04.31.25:720][995]LogBlueprint:Warning: [compiler menu] 경고 [0544.58] menu 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 1 회, [소요시간 0 ms]
+[2016.01.09-04.31.25:720][995]LogBlueprint:Warning: [compiler menu] 경고 [0544.58] menu 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 2 회, [소요시간 0 ms]
+[2016.01.09-04.31.25:720][995]LogBlueprint:Warning: [compiler menu] 경고 [0544.58] menu 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 3 회, [소요시간 0 ms]
+[2016.01.09-04.31.25:722][995]LogBlueprint:Warning: [compiler menu] 경고 [0544.59] menu 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 4 회, [소요시간 1 ms]
+[2016.01.09-04.31.25:722][995]LogBlueprint:Warning: [compiler menu] 경고 [0544.59] menu 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 5 회, [소요시간 0 ms]
+[2016.01.09-04.31.25:722][995]LogPlayLevel: PlayLevel: Blueprint regeneration took 107 ms (3 blueprints)
+[2016.01.09-04.31.25:723][995]LogPlayLevel: [PlayLevel] Compiling bp_profile before play...
+[2016.01.09-04.31.25:783][995]LogPlayLevel: PlayLevel: Blueprint regeneration took 168 ms (3 blueprints)
+[2016.01.09-04.31.25:856][995]LogPlayLevel: [PlayLevel] Compiling umg_menu before play...
+[2016.01.09-04.31.25:864][995]LogBlueprint:Error: [compiler menu] 오류 이 블루프린트(self)는 UserWidget 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.01.09-04.31.25:866][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.31.25:866][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.31.25:867][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.01.09-04.31.26:100][995]LogPlayLevel: PlayLevel: Blueprint regeneration took 485 ms (3 blueprints)
+[2016.01.09-04.31.26:140][995]BlueprintLog: 정보 menu 블루프린트 컴파일에 실패했습니다.
+[2016.01.09-04.31.30:192][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/menu" FILE="../../../../../../MJY/scollo12274/Content/Map/menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.09-04.31.30:247][ 47]LogBlueprint:Error: [compiler menu] 오류 이 블루프린트(self)는 UserWidget 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.01.09-04.31.30:335][ 47]LogBlueprint:Warning: [compiler menu] 경고 [0549.20] menu 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 91 ms]
+[2016.01.09-04.31.30:336][ 47]LogBlueprint:Warning: [compiler menu] 경고 [0549.20] menu 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 1 회, [소요시간 0 ms]
+[2016.01.09-04.31.30:336][ 47]LogBlueprint:Warning: [compiler menu] 경고 [0549.20] menu 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 2 회, [소요시간 0 ms]
+[2016.01.09-04.31.30:336][ 47]LogBlueprint:Warning: [compiler menu] 경고 [0549.20] menu 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 3 회, [소요시간 0 ms]
+[2016.01.09-04.31.30:338][ 47]LogBlueprint:Warning: [compiler menu] 경고 [0549.20] menu 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 4 회, [소요시간 1 ms]
+[2016.01.09-04.31.30:338][ 47]LogBlueprint:Warning: [compiler menu] 경고 [0549.20] menu 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 5 회, [소요시간 0 ms]
+[2016.01.09-04.31.30:359][ 47]LogSavePackage: Save=116.094093ms
+[2016.01.09-04.31.30:359][ 47]LogSavePackage: Moving '../../../../../../MJY/scollo12274/Saved/menuB37C1C8347F680740E8DC89B6ACBDDC4.tmp' to '../../../../../../MJY/scollo12274/Content/Map/menu.umap'
+[2016.01.09-04.31.30:361][ 47]LogSavePackage: Total save time: 122.942772ms
+[2016.01.09-04.31.30:361][ 47]LogSavePackage:Warning: Finished SavePackage ../../../../../../MJY/scollo12274/Content/Map/menu.umap
+[2016.01.09-04.31.30:404][ 47]LogFileHelpers: Saving map 'menu' took 0.278
+[2016.01.09-04.31.31:357][ 68]BlueprintLog: New page: menu 컴파일
+[2016.01.09-04.31.31:364][ 68]LogBlueprint:Error: [compiler menu] 오류 이 블루프린트(self)는 UserWidget 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.01.09-04.31.31:507][ 68]LogBlueprint:Warning: [compiler menu] 경고 [0550.37] menu 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 149 ms]
+[2016.01.09-04.31.31:507][ 68]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 UserWidget 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.01.09-04.31.31:507][ 68]BlueprintEditorCompileResults:Warning: 경고 [0550.37] menu 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 149 ms]
+[2016.01.09-04.31.38:367][228]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.31.38:367][228]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.01.09-04.31.38:370][228]LogPlayLevel: [PlayLevel] Compiling menu before play...
+[2016.01.09-04.31.38:411][228]LogPlayLevel: PlayLevel: Blueprint regeneration took 43 ms (1 blueprints)
+[2016.01.09-04.31.38:448][228]PIE: New page: PIE 세션: menu (2016. 1. 9. 오후 10:31:38)
+[2016.01.09-04.31.38:449][228]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_menu
+[2016.01.09-04.31.38:450][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001766s)
+[2016.01.09-04.31.38:451][228]LogAIModule: Creating AISystem for world menu
+[2016.01.09-04.31.38:451][228]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2016.01.09-04.31.38:451][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/menu.menu to /Game/Map/UEDPIE_0_menu.menu (0.002581s)
+[2016.01.09-04.31.38:490][228]LogInit: XAudio2 using '스피커(VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.09-04.31.38:502][228]LogInit: FAudioDevice initialized.
+[2016.01.09-04.31.38:542][228]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.01.09-04.31.38:543][228]LogWorld: Bringing World /Game/Map/UEDPIE_0_menu.menu up for play (max tick rate 60) at 2016.01.09-13.31.38
+[2016.01.09-04.31.38:543][228]LogActor:Warning: GameSession /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.31.38:543][228]LogActor:Warning: GameNetworkManager /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.31.38:543][228]LogWorld: Bringing up level for play took: 0.000784
+[2016.01.09-04.31.38:579][228]PIE: 정보 /Game/Map/UEDPIE_0_menu 에 대한 에디터에서 플레이 시작 시간: 0.761
+[2016.01.09-04.31.38:580][228]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.31.40:060][260]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.31.40:128][260]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.31.40:280][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040067380
+[2016.01.09-04.31.42:758][322]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_5
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.31.42:758][322]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_5
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.31.42:759][322]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_5
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.31.42:760][322]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_5
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.31.42:760][322]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_5
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.31.42:760][322]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_5
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.31.55:027][720]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'menu', cached variable property's owner is '/Script/Engine.PlayerController'
+[2016.01.09-04.32.02:343][919]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'menu', cached variable property's owner is '/Script/Engine.PlayerController'
+[2016.01.09-04.32.12:814][187]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.32.12:814][187]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.01.09-04.32.12:816][187]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'menu', cached variable property's owner is '/Script/Engine.PlayerController'
+[2016.01.09-04.32.12:817][187]LogPlayLevel: [PlayLevel] Compiling menu before play...
+[2016.01.09-04.32.12:864][187]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'menu', cached variable property's owner is '/Script/Engine.PlayerController'
+[2016.01.09-04.32.12:865][187]LogPlayLevel: PlayLevel: Blueprint regeneration took 51 ms (1 blueprints)
+[2016.01.09-04.32.12:865][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.32.12:865][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.32.12:865][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.01.09-04.32.12:904][187]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F8A1440
+[2016.01.09-04.32.12:905][187]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F11E840
+[2016.01.09-04.32.12:906][187]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F11DEE0
+[2016.01.09-04.32.12:909][187]PIE: New page: PIE 세션: menu (2016. 1. 9. 오후 10:32:12)
+[2016.01.09-04.32.12:909][187]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_menu
+[2016.01.09-04.32.12:912][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002797s)
+[2016.01.09-04.32.12:913][187]LogAIModule: Creating AISystem for world menu
+[2016.01.09-04.32.12:913][187]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2016.01.09-04.32.12:913][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/menu.menu to /Game/Map/UEDPIE_0_menu.menu (0.003668s)
+[2016.01.09-04.32.12:955][187]LogInit: XAudio2 using '스피커(VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.09-04.32.12:968][187]LogInit: FAudioDevice initialized.
+[2016.01.09-04.32.13:009][187]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.01.09-04.32.13:010][187]LogWorld: Bringing World /Game/Map/UEDPIE_0_menu.menu up for play (max tick rate 60) at 2016.01.09-13.32.13
+[2016.01.09-04.32.13:010][187]LogActor:Warning: GameSession /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.32.13:010][187]LogActor:Warning: GameNetworkManager /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.32.13:011][187]LogWorld: Bringing up level for play took: 0.000740
+[2016.01.09-04.32.13:040][187]PIE: 정보 /Game/Map/UEDPIE_0_menu 에 대한 에디터에서 플레이 시작 시간: 1.221
+[2016.01.09-04.32.13:040][187]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.32.13:064][187]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'menu', cached variable property's owner is '/Script/Engine.PlayerController'
+[2016.01.09-04.33.12:898][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000213982C0
+[2016.01.09-04.33.26:617][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.33.26:672][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.33.26:723][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034825800
+[2016.01.09-04.34.08:268][499]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.34.08:268][499]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.01.09-04.34.08:273][499]LogPlayLevel: [PlayLevel] Compiling umg_menu before play...
+[2016.01.09-04.34.08:337][499]LogPlayLevel: PlayLevel: Blueprint regeneration took 68 ms (2 blueprints)
+[2016.01.09-04.34.08:337][499]LogPlayLevel: [PlayLevel] Compiling menu before play...
+[2016.01.09-04.34.08:392][499]LogPlayLevel: PlayLevel: Blueprint regeneration took 123 ms (2 blueprints)
+[2016.01.09-04.34.08:440][499]PIE: New page: PIE 세션: menu (2016. 1. 9. 오후 10:34:08)
+[2016.01.09-04.34.08:440][499]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_menu
+[2016.01.09-04.34.08:443][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003457s)
+[2016.01.09-04.34.08:444][499]LogAIModule: Creating AISystem for world menu
+[2016.01.09-04.34.08:444][499]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2016.01.09-04.34.08:444][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/menu.menu to /Game/Map/UEDPIE_0_menu.menu (0.004484s)
+[2016.01.09-04.34.08:494][499]LogInit: XAudio2 using '스피커(VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.09-04.34.08:511][499]LogInit: FAudioDevice initialized.
+[2016.01.09-04.34.08:556][499]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.01.09-04.34.08:557][499]LogWorld: Bringing World /Game/Map/UEDPIE_0_menu.menu up for play (max tick rate 60) at 2016.01.09-13.34.08
+[2016.01.09-04.34.08:557][499]LogActor:Warning: GameSession /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.34.08:558][499]LogActor:Warning: GameNetworkManager /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.34.08:558][499]LogWorld: Bringing up level for play took: 0.001432
+[2016.01.09-04.34.08:595][499]PIE: 정보 /Game/Map/UEDPIE_0_menu 에 대한 에디터에서 플레이 시작 시간: 0.774
+[2016.01.09-04.34.08:595][499]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.34.09:787][522]LogPackageName: SearchForPackageOnDisk took   0.081s, but failed to resolve None.umap.
+[2016.01.09-04.34.09:853][522]LogPackageName: SearchForPackageOnDisk took   0.065s, but failed to resolve None.umap.
+[2016.01.09-04.34.09:853][522]LogNet: Browse: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2016.01.09-04.34.09:853][522]LogNet:Warning: Travel Failure: [InvalidURL]: 잘못된 URL: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2016.01.09-04.34.09:854][522]LogNet:Warning: 트래블 실패: InvalidURL, 실패 이유: '잘못된 URL: /Game/SideScrollerBP/Maps/SideScrollerExampleMap'. PIE 종료.
+[2016.01.09-04.34.09:854][522]PIE:Warning: 경고 트래블 실패: InvalidURL, 실패 이유: '잘못된 URL: /Game/SideScrollerBP/Maps/SideScrollerExampleMap'. PIE 종료.
+[2016.01.09-04.34.09:854][522]LogNet:Warning: Travel Failure: [ClientTravelFailure]: 잘못된 URL: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2016.01.09-04.34.09:854][522]LogNet:Warning: 트래블 실패: ClientTravelFailure, 실패 이유: '잘못된 URL: /Game/SideScrollerBP/Maps/SideScrollerExampleMap'. PIE 종료.
+[2016.01.09-04.34.09:854][522]PIE:Warning: 경고 트래블 실패: ClientTravelFailure, 실패 이유: '잘못된 URL: /Game/SideScrollerBP/Maps/SideScrollerExampleMap'. PIE 종료.
+[2016.01.09-04.34.09:855][522]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.34.09:917][522]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.34.09:977][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000042F1B4C0
+[2016.01.09-04.34.48:652][395]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_6
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.34.48:652][395]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_6
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.34.48:652][395]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_6
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.34.48:653][395]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_6
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.34.48:653][395]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_6
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.34.48:653][395]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_6
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.42.33:547][445]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'umg_end', cached variable property's owner is '/Game/Blueprints/umg_end.SKEL_umg_end_C'
+[2016.01.09-04.42.40:524][606]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'umg_end', cached variable property's owner is '/Game/Blueprints/umg_end.SKEL_umg_end_C'
+[2016.01.09-04.42.42:623][695]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'umg_end', cached variable property's owner is '/Game/Blueprints/umg_end.SKEL_umg_end_C'
+[2016.01.09-04.42.42:636][696]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'umg_end', cached variable property's owner is '/Game/Blueprints/umg_end.SKEL_umg_end_C'
+[2016.01.09-04.42.56:723][139]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'umg_end', cached variable property's owner is '/Game/Blueprints/umg_end.SKEL_umg_end_C'
+[2016.01.09-04.43.34:396][ 88]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.43.34:397][ 88]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.43.34:433][ 88]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002EB0C360
+[2016.01.09-04.43.34:442][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/menu" FILE="../../../../../../MJY/scollo12274/Saved/Autosaves/Game/Map/menu_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.01.09-04.43.34:509][ 88]LogSavePackage: Save=59.858364ms
+[2016.01.09-04.43.34:509][ 88]LogSavePackage: Moving '../../../../../../MJY/scollo12274/Saved/menu_Auto1C86DF2684E422E9A4D7F8A9A4FA016D6.tmp' to '../../../../../../MJY/scollo12274/Saved/Autosaves/Game/Map/menu_Auto1.umap'
+[2016.01.09-04.43.34:509][ 88]LogSavePackage: Total save time: 66.238198ms
+[2016.01.09-04.43.34:510][ 88]LogSavePackage:Warning: Finished SavePackage ../../../../../../MJY/scollo12274/Saved/Autosaves/Game/Map/menu_Auto1.umap
+[2016.01.09-04.43.34:512][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/menu' took 0.116
+[2016.01.09-04.43.34:512][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.116
+[2016.01.09-04.43.34:519][ 88]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/umg_menu] ([1] browsable assets)...
+[2016.01.09-04.43.34:519][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/umg_menu]
+[2016.01.09-04.43.34:519][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/umg_menu" FILE="../../../../../../MJY/scollo12274/Saved/Autosaves/Game/Blueprints/umg_menu_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.01.09-04.43.34:539][ 88]LogSavePackage: Save=13.723212ms
+[2016.01.09-04.43.34:539][ 88]LogSavePackage: Moving '../../../../../../MJY/scollo12274/Saved/umg_menu_Auto124C2DE8340922ABC81CE0C88C2DBCA12.tmp' to '../../../../../../MJY/scollo12274/Saved/Autosaves/Game/Blueprints/umg_menu_Auto1.uasset'
+[2016.01.09-04.43.34:542][ 88]LogSavePackage: Total save time: 20.979144ms
+[2016.01.09-04.43.34:542][ 88]LogSavePackage:Warning: Finished SavePackage ../../../../../../MJY/scollo12274/Saved/Autosaves/Game/Blueprints/umg_menu_Auto1.uasset
+[2016.01.09-04.43.34:545][ 88]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/umg_end] ([1] browsable assets)...
+[2016.01.09-04.43.34:545][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/umg_end]
+[2016.01.09-04.43.34:545][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/umg_end" FILE="../../../../../../MJY/scollo12274/Saved/Autosaves/Game/Blueprints/umg_end_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.01.09-04.43.34:561][ 88]LogSavePackage: Save=14.077100ms
+[2016.01.09-04.43.34:561][ 88]LogSavePackage: Moving '../../../../../../MJY/scollo12274/Saved/umg_end_Auto1ABCC2E684BB374A98342B5B2CB04322A.tmp' to '../../../../../../MJY/scollo12274/Saved/Autosaves/Game/Blueprints/umg_end_Auto1.uasset'
+[2016.01.09-04.43.34:561][ 88]LogSavePackage: Total save time: 15.067741ms
+[2016.01.09-04.43.34:562][ 88]LogSavePackage:Warning: Finished SavePackage ../../../../../../MJY/scollo12274/Saved/Autosaves/Game/Blueprints/umg_end_Auto1.uasset
+[2016.01.09-04.43.34:562][ 88]LogFileHelpers: Auto-saving content packages took 0.046
+[2016.01.09-04.44.24:050][189]BlueprintLog: New page: umg_end 컴파일
+[2016.01.09-04.44.24:186][189]BlueprintEditorCompileResults: 정보 [1323.04] umg_end 컴파일에 성공했습니다! [소요시간 136 ms]
+[2016.01.09-04.44.24:736][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/umg_end" FILE="../../../../../../MJY/scollo12274/Content/Blueprints/umg_end.uasset" SILENT=true
+[2016.01.09-04.44.24:760][200]LogSavePackage: Save=21.982922ms
+[2016.01.09-04.44.24:760][200]LogSavePackage: Moving '../../../../../../MJY/scollo12274/Saved/umg_end258F0F4B444055DE39D0C3B126FBCD09.tmp' to '../../../../../../MJY/scollo12274/Content/Blueprints/umg_end.uasset'
+[2016.01.09-04.44.24:765][200]LogSavePackage: Total save time: 26.632726ms
+[2016.01.09-04.44.24:765][200]LogSavePackage:Warning: Finished SavePackage ../../../../../../MJY/scollo12274/Content/Blueprints/umg_end.uasset
+[2016.01.09-04.44.44:871][643]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_7
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.44.44:871][643]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_7
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.44.44:871][643]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_7
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.44.44:871][643]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_7
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.44.44:871][643]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_7
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.44.44:871][643]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_7
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.44.47:397][700]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.09-04.44.50:846][820]BlueprintLog: New page: menu 컴파일
+[2016.01.09-04.44.50:894][820]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.44.50:894][820]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.44.50:894][820]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.01.09-04.44.50:935][820]BlueprintEditorCompileResults: 정보 [1349.79] menu 컴파일에 성공했습니다! [소요시간 88 ms]
+[2016.01.09-04.44.51:760][838]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.44.51:761][838]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.01.09-04.44.51:761][838]LogPlayLevel: [PlayLevel] Compiling umg_menu before play...
+[2016.01.09-04.44.51:801][838]LogPlayLevel: PlayLevel: Blueprint regeneration took 40 ms (1 blueprints)
+[2016.01.09-04.44.51:839][838]PIE: New page: PIE 세션: menu (2016. 1. 9. 오후 10:44:51)
+[2016.01.09-04.44.51:839][838]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_menu
+[2016.01.09-04.44.51:842][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002590s)
+[2016.01.09-04.44.51:842][838]LogAIModule: Creating AISystem for world menu
+[2016.01.09-04.44.51:842][838]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2016.01.09-04.44.51:842][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/menu.menu to /Game/Map/UEDPIE_0_menu.menu (0.003430s)
+[2016.01.09-04.44.51:881][838]LogInit: XAudio2 using '스피커(VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.09-04.44.51:893][838]LogInit: FAudioDevice initialized.
+[2016.01.09-04.44.51:931][838]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.01.09-04.44.51:932][838]LogWorld: Bringing World /Game/Map/UEDPIE_0_menu.menu up for play (max tick rate 60) at 2016.01.09-13.44.51
+[2016.01.09-04.44.51:932][838]LogActor:Warning: GameSession /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.44.51:932][838]LogActor:Warning: GameNetworkManager /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.44.51:932][838]LogWorld: Bringing up level for play took: 0.000702
+[2016.01.09-04.44.51:968][838]PIE: 정보 /Game/Map/UEDPIE_0_menu 에 대한 에디터에서 플레이 시작 시간: 0.145
+[2016.01.09-04.44.51:968][838]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.44.59:606][ 26]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.44.59:639][ 26]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.44.59:716][ 27]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033C549A0
+[2016.01.09-04.45.00:557][ 46]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.45.00:557][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.09-04.45.00:557][ 46]PIE: New page: PIE 세션: menu (2016. 1. 9. 오후 10:45:00)
+[2016.01.09-04.45.00:557][ 46]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_menu
+[2016.01.09-04.45.00:560][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003097s)
+[2016.01.09-04.45.00:561][ 46]LogAIModule: Creating AISystem for world menu
+[2016.01.09-04.45.00:561][ 46]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2016.01.09-04.45.00:561][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/menu.menu to /Game/Map/UEDPIE_0_menu.menu (0.003896s)
+[2016.01.09-04.45.00:600][ 46]LogInit: XAudio2 using '스피커(VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.09-04.45.00:610][ 46]LogInit: FAudioDevice initialized.
+[2016.01.09-04.45.00:647][ 46]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.01.09-04.45.00:648][ 46]LogWorld: Bringing World /Game/Map/UEDPIE_0_menu.menu up for play (max tick rate 60) at 2016.01.09-13.45.00
+[2016.01.09-04.45.00:648][ 46]LogActor:Warning: GameSession /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.45.00:648][ 46]LogActor:Warning: GameNetworkManager /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.45.00:648][ 46]LogWorld: Bringing up level for play took: 0.000713
+[2016.01.09-04.45.00:683][ 46]PIE: 정보 /Game/Map/UEDPIE_0_menu 에 대한 에디터에서 플레이 시작 시간: 0.86
+[2016.01.09-04.45.00:683][ 46]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.45.03:383][111]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.45.03:414][111]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.45.03:454][111]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A3BB420
+[2016.01.09-04.45.04:701][137]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.09-04.45.14:994][574]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.45.14:994][574]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.01.09-04.45.14:997][574]LogPlayLevel: [PlayLevel] Compiling menu before play...
+[2016.01.09-04.45.15:038][574]LogPlayLevel: PlayLevel: Blueprint regeneration took 43 ms (1 blueprints)
+[2016.01.09-04.45.15:075][574]PIE: New page: PIE 세션: menu (2016. 1. 9. 오후 10:45:15)
+[2016.01.09-04.45.15:075][574]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_menu
+[2016.01.09-04.45.15:078][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002543s)
+[2016.01.09-04.45.15:078][574]LogAIModule: Creating AISystem for world menu
+[2016.01.09-04.45.15:078][574]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2016.01.09-04.45.15:079][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/menu.menu to /Game/Map/UEDPIE_0_menu.menu (0.003387s)
+[2016.01.09-04.45.15:117][574]LogInit: XAudio2 using '스피커(VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.09-04.45.15:129][574]LogInit: FAudioDevice initialized.
+[2016.01.09-04.45.15:166][574]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.01.09-04.45.15:167][574]LogWorld: Bringing World /Game/Map/UEDPIE_0_menu.menu up for play (max tick rate 60) at 2016.01.09-13.45.15
+[2016.01.09-04.45.15:167][574]LogActor:Warning: GameSession /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.45.15:167][574]LogActor:Warning: GameNetworkManager /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.45.15:168][574]LogWorld: Bringing up level for play took: 0.000701
+[2016.01.09-04.45.15:202][574]PIE: 정보 /Game/Map/UEDPIE_0_menu 에 대한 에디터에서 플레이 시작 시간: -0.622
+[2016.01.09-04.45.15:202][574]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.45.16:550][604]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve test.umap.
+[2016.01.09-04.45.16:595][604]LogPackageName: SearchForPackageOnDisk took   0.045s to resolve test.umap.
+[2016.01.09-04.45.16:595][604]LogNet: Browse: /Game/Map/test
+[2016.01.09-04.45.16:595][604]LogLoad: LoadMap: /Game/Map/test
+[2016.01.09-04.45.16:632][604]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002EB0F560
+[2016.01.09-04.45.16:636][604]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A05BEC0
+[2016.01.09-04.45.16:636][604]Cmd: MEM
+[2016.01.09-04.45.16:674][604]LogMemory: Platform Memory Stats for Windows
+[2016.01.09-04.45.16:674][604]LogMemory: Process Physical Memory: 981.97 MB used, 985.91 MB peak
+[2016.01.09-04.45.16:674][604]LogMemory: Process Virtual Memory: 881.96 MB used, 886.06 MB peak
+[2016.01.09-04.45.16:674][604]LogMemory: Physical Memory: 3785.11 MB used, 8114.86 MB total
+[2016.01.09-04.45.16:674][604]LogMemory: Virtual Memory: 1565.91 MB used, 8388608.00 MB total
+[2016.01.09-04.45.16:674][604]LogMemory: 
+[2016.01.09-04.45.16:674][604]Allocator Stats for TBB: (not implemented)
+[2016.01.09-04.45.16:918][604]LogAIModule: Creating AISystem for world test
+[2016.01.09-04.45.16:918][604]LogWorld: Game class is 'BP_Gamemode_C'
+[2016.01.09-04.45.16:923][604]LogWorld: Bringing World /Game/Map/UEDPIE_0_test.test up for play (max tick rate 60) at 2016.01.09-13.45.16
+[2016.01.09-04.45.16:923][604]LogActor:Warning: GameSession /Game/Map/UEDPIE_0_test.test:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.45.16:923][604]LogActor:Warning: GameNetworkManager /Game/Map/UEDPIE_0_test.test:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.45.16:923][604]LogWorld: Bringing up level for play took: 0.004380
+[2016.01.09-04.45.17:802][620]LogBlueprintUserMessages: [BP_Charater_C_1] 10
+[2016.01.09-04.45.18:620][633]LogBlueprintUserMessages: [BP_Charater_C_1] 20
+[2016.01.09-04.45.18:800][636]LogBlueprintUserMessages: [BP_Charater_C_1] 30
+[2016.01.09-04.45.19:154][642]LogBlueprintUserMessages: [BP_Charater_C_1] 40
+[2016.01.09-04.45.19:811][653]LogBlueprintUserMessages: [BP_Charater_C_1] 50
+[2016.01.09-04.45.20:297][661]LogBlueprintUserMessages: [BP_Charater_C_1] 60
+[2016.01.09-04.45.20:719][668]LogBlueprintUserMessages: [BP_Charater_C_1] 70
+[2016.01.09-04.45.21:393][679]LogBlueprintUserMessages: [BP_Charater_C_1] 80
+[2016.01.09-04.45.21:659][683]LogBlueprintUserMessages: [BP_Charater_C_1] 130
+[2016.01.09-04.45.21:837][686]LogBlueprintUserMessages: [BP_Charater_C_1] 140
+[2016.01.09-04.45.22:309][694]LogBlueprintUserMessages: [BP_Charater_C_1] 150
+[2016.01.09-04.45.22:966][705]LogBlueprintUserMessages: [BP_Charater_C_1] 160
+[2016.01.09-04.45.23:775][719]LogBlueprintUserMessages: [BP_Charater_C_1] 170
+[2016.01.09-04.45.24:745][736]LogBlueprintUserMessages: [BP_Charater_C_1] 180
+[2016.01.09-04.45.24:913][739]LogBlueprintUserMessages: [BP_Charater_C_1] 230
+[2016.01.09-04.45.25:753][753]LogBlueprintUserMessages: [BP_Charater_C_1] 240
+[2016.01.09-04.45.26:115][759]LogBlueprintUserMessages: [BP_Charater_C_1] 250
+[2016.01.09-04.45.27:054][774]LogBlueprintUserMessages: [BP_Charater_C_1] 260
+[2016.01.09-04.45.27:182][775]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.45.27:212][775]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.45.27:273][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A058EA0
+[2016.01.09-04.45.31:730][874]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.09-04.45.34:557][969]BlueprintLog: New page: menu 컴파일
+[2016.01.09-04.45.34:646][969]BlueprintEditorCompileResults: 정보 [1393.50] menu 컴파일에 성공했습니다! [소요시간 89 ms]
+[2016.01.09-04.45.36:683][ 15]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_9
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.45.36:683][ 15]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_9
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.45.36:684][ 15]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_9
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.45.36:684][ 15]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_9
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.45.36:684][ 15]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_9
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.45.36:684][ 15]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_9
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.45.37:413][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.45.37:414][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.45.37:468][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031CAA700
+[2016.01.09-04.45.37:469][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027C168E0
+[2016.01.09-04.45.37:470][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024201F80
+[2016.01.09-04.45.38:861][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/umg_menu" FILE="../../../../../../MJY/scollo12274/Content/Blueprints/umg_menu.uasset" SILENT=true
+[2016.01.09-04.45.38:877][ 24]LogSavePackage: Save=12.746120ms
+[2016.01.09-04.45.38:878][ 24]LogSavePackage: Moving '../../../../../../MJY/scollo12274/Saved/umg_menu93CA03244C42B0499A7F4A9BA35CC3CE.tmp' to '../../../../../../MJY/scollo12274/Content/Blueprints/umg_menu.uasset'
+[2016.01.09-04.45.38:881][ 24]LogSavePackage: Total save time: 18.801216ms
+[2016.01.09-04.45.38:881][ 24]LogSavePackage:Warning: Finished SavePackage ../../../../../../MJY/scollo12274/Content/Blueprints/umg_menu.uasset
+[2016.01.09-04.45.38:938][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/menu" FILE="../../../../../../MJY/scollo12274/Content/Map/menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.09-04.45.39:039][ 24]LogSavePackage: Save=60.629772ms
+[2016.01.09-04.45.39:039][ 24]LogSavePackage: Moving '../../../../../../MJY/scollo12274/Saved/menuEC02143943FEC1E30B2EBF9FBC4A608E.tmp' to '../../../../../../MJY/scollo12274/Content/Map/menu.umap'
+[2016.01.09-04.45.39:041][ 24]LogSavePackage: Total save time: 64.247064ms
+[2016.01.09-04.45.39:041][ 24]LogSavePackage:Warning: Finished SavePackage ../../../../../../MJY/scollo12274/Content/Map/menu.umap
+[2016.01.09-04.45.39:077][ 24]LogFileHelpers: Saving map 'menu' took 0.193
+[2016.01.09-04.45.39:079][ 24]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_10
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.45.39:079][ 24]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_10
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.45.39:079][ 24]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_10
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.45.39:079][ 24]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_10
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.45.39:079][ 24]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_10
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.45.39:079][ 24]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_10
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.46.14:128][914]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.09-04.46.24:094][229]BlueprintLog: New page: BP_Charater 컴파일
+[2016.01.09-04.46.24:188][229]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.46.24:188][229]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.46.24:232][229]BlueprintEditorCompileResults: 정보 [1443.09] BP_Charater 컴파일에 성공했습니다! [소요시간 137 ms]
+[2016.01.09-04.46.24:233][229]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_12
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.46.24:233][229]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_12
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.46.24:233][229]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_12
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.46.24:233][229]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_12
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.46.24:234][229]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_12
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.46.24:234][229]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_12
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.46.24:768][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Charater" FILE="../../../../../../MJY/scollo12274/Content/Blueprints/BP_Charater.uasset" SILENT=true
+[2016.01.09-04.46.24:863][239]LogSavePackage: Save=88.300766ms
+[2016.01.09-04.46.24:863][239]LogSavePackage: Moving '../../../../../../MJY/scollo12274/Saved/BP_CharaterBD69FACB403E9B3CDD95DAA18908A5FA.tmp' to '../../../../../../MJY/scollo12274/Content/Blueprints/BP_Charater.uasset'
+[2016.01.09-04.46.24:865][239]LogSavePackage: Total save time: 95.771819ms
+[2016.01.09-04.46.24:865][239]LogSavePackage:Warning: Finished SavePackage ../../../../../../MJY/scollo12274/Content/Blueprints/BP_Charater.uasset
+[2016.01.09-04.46.25:586][254]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.46.25:586][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.09-04.46.25:586][254]PIE: New page: PIE 세션: menu (2016. 1. 9. 오후 10:46:25)
+[2016.01.09-04.46.25:586][254]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_menu
+[2016.01.09-04.46.25:589][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002489s)
+[2016.01.09-04.46.25:589][254]LogAIModule: Creating AISystem for world menu
+[2016.01.09-04.46.25:589][254]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2016.01.09-04.46.25:589][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/menu.menu to /Game/Map/UEDPIE_0_menu.menu (0.003311s)
+[2016.01.09-04.46.25:589][254]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.46.25:628][254]LogInit: XAudio2 using '스피커(VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.09-04.46.25:640][254]LogInit: FAudioDevice initialized.
+[2016.01.09-04.46.25:680][254]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.01.09-04.46.25:681][254]LogWorld: Bringing World /Game/Map/UEDPIE_0_menu.menu up for play (max tick rate 60) at 2016.01.09-13.46.25
+[2016.01.09-04.46.25:681][254]LogActor:Warning: GameSession /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.46.25:681][254]LogActor:Warning: GameNetworkManager /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.46.25:682][254]LogWorld: Bringing up level for play took: 0.000682
+[2016.01.09-04.46.25:719][254]PIE: 정보 /Game/Map/UEDPIE_0_menu 에 대한 에디터에서 플레이 시작 시간: -0.106
+[2016.01.09-04.46.25:719][254]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.46.27:519][294]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.46.27:548][294]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.46.27:587][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044FE6FC0
+[2016.01.09-04.46.29:327][336]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_13
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.46.29:327][336]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_13
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.46.29:327][336]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_13
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.46.29:327][336]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_13
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.46.29:327][336]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_13
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.46.29:327][336]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_13
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.47.11:471][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.47.11:472][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.47.11:522][480]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037F02520
+[2016.01.09-04.47.11:523][480]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002EB79EE0
+[2016.01.09-04.47.11:553][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/umg_end" FILE="../../../../../../MJY/scollo12274/Content/Blueprints/umg_end.uasset" SILENT=true
+[2016.01.09-04.47.11:584][480]LogSavePackage: Save=23.056080ms
+[2016.01.09-04.47.11:584][480]LogSavePackage: Moving '../../../../../../MJY/scollo12274/Saved/umg_end4FA234424B5E215FD3ECE58991B66247.tmp' to '../../../../../../MJY/scollo12274/Content/Blueprints/umg_end.uasset'
+[2016.01.09-04.47.11:586][480]LogSavePackage: Total save time: 31.975120ms
+[2016.01.09-04.47.11:586][480]LogSavePackage:Warning: Finished SavePackage ../../../../../../MJY/scollo12274/Content/Blueprints/umg_end.uasset
+[2016.01.09-04.47.12:478][500]BlueprintLog: New page: umg_end 컴파일
+[2016.01.09-04.47.12:597][500]BlueprintEditorCompileResults: 정보 [1491.45] umg_end 컴파일에 성공했습니다! [소요시간 119 ms]
+[2016.01.09-04.47.15:784][599]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_15
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.47.15:784][599]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_15
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.47.15:784][599]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_15
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.47.15:785][599]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_15
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.47.15:785][599]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_15
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.47.15:785][599]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_15
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.47.18:059][661]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.09-04.47.22:370][815]BlueprintLog: New page: menu 컴파일
+[2016.01.09-04.47.22:419][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.47.22:419][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.47.22:420][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.01.09-04.47.22:455][815]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F8F3EC0
+[2016.01.09-04.47.22:460][815]BlueprintEditorCompileResults: 정보 [1501.32] menu 컴파일에 성공했습니다! [소요시간 90 ms]
+[2016.01.09-04.47.24:358][859]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.47.24:358][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.09-04.47.24:358][859]PIE: New page: PIE 세션: menu (2016. 1. 9. 오후 10:47:24)
+[2016.01.09-04.47.24:358][859]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_menu
+[2016.01.09-04.47.24:361][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002804s)
+[2016.01.09-04.47.24:362][859]LogAIModule: Creating AISystem for world menu
+[2016.01.09-04.47.24:362][859]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2016.01.09-04.47.24:362][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/menu.menu to /Game/Map/UEDPIE_0_menu.menu (0.004177s)
+[2016.01.09-04.47.24:400][859]LogInit: XAudio2 using '스피커(VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.09-04.47.24:411][859]LogInit: FAudioDevice initialized.
+[2016.01.09-04.47.24:450][859]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.01.09-04.47.24:451][859]LogWorld: Bringing World /Game/Map/UEDPIE_0_menu.menu up for play (max tick rate 60) at 2016.01.09-13.47.24
+[2016.01.09-04.47.24:451][859]LogActor:Warning: GameSession /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.47.24:452][859]LogActor:Warning: GameNetworkManager /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.47.24:452][859]LogWorld: Bringing up level for play took: 0.000730
+[2016.01.09-04.47.24:489][859]PIE: 정보 /Game/Map/UEDPIE_0_menu 에 대한 에디터에서 플레이 시작 시간: 0.664
+[2016.01.09-04.47.24:489][859]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.47.25:417][879]LogPackageName: SearchForPackageOnDisk took   0.054s to resolve test.umap.
+[2016.01.09-04.47.25:464][879]LogPackageName: SearchForPackageOnDisk took   0.046s to resolve test.umap.
+[2016.01.09-04.47.25:464][879]LogNet: Browse: /Game/Map/test
+[2016.01.09-04.47.25:464][879]LogLoad: LoadMap: /Game/Map/test
+[2016.01.09-04.47.25:501][879]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F8F1F80
+[2016.01.09-04.47.25:504][879]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002EDA56C0
+[2016.01.09-04.47.25:505][879]Cmd: MEM
+[2016.01.09-04.47.25:541][879]LogMemory: Platform Memory Stats for Windows
+[2016.01.09-04.47.25:541][879]LogMemory: Process Physical Memory: 1103.30 MB used, 1107.41 MB peak
+[2016.01.09-04.47.25:541][879]LogMemory: Process Virtual Memory: 1002.20 MB used, 1006.30 MB peak
+[2016.01.09-04.47.25:541][879]LogMemory: Physical Memory: 3897.43 MB used, 8114.86 MB total
+[2016.01.09-04.47.25:541][879]LogMemory: Virtual Memory: 1677.25 MB used, 8388608.00 MB total
+[2016.01.09-04.47.25:541][879]LogMemory: 
+[2016.01.09-04.47.25:541][879]Allocator Stats for TBB: (not implemented)
+[2016.01.09-04.47.25:548][879]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.47.25:549][879]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.47.25:550][879]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.47.25:551][879]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.47.25:552][879]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.47.25:666][879]LogAIModule: Creating AISystem for world test
+[2016.01.09-04.47.25:666][879]LogWorld: Game class is 'BP_Gamemode_C'
+[2016.01.09-04.47.25:670][879]LogWorld: Bringing World /Game/Map/UEDPIE_0_test.test up for play (max tick rate 60) at 2016.01.09-13.47.25
+[2016.01.09-04.47.25:670][879]LogActor:Warning: GameSession /Game/Map/UEDPIE_0_test.test:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.47.25:671][879]LogActor:Warning: GameNetworkManager /Game/Map/UEDPIE_0_test.test:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.47.25:671][879]LogWorld: Bringing up level for play took: 0.004043
+[2016.01.09-04.47.26:596][895]LogBlueprintUserMessages: [BP_Charater_C_0] 10
+[2016.01.09-04.47.27:379][908]LogBlueprintUserMessages: [BP_Charater_C_0] 20
+[2016.01.09-04.47.28:282][923]LogBlueprintUserMessages: [BP_Charater_C_0] 30
+[2016.01.09-04.47.30:276][955]LogBlueprintUserMessages: [BP_Charater_C_0] 40
+[2016.01.09-04.47.31:567][975]LogPackageName: SearchForPackageOnDisk took   0.070s, but failed to resolve umg_menu.umap.
+[2016.01.09-04.47.31:636][976]LogPackageName: SearchForPackageOnDisk took   0.065s, but failed to resolve umg_menu.umap.
+[2016.01.09-04.47.31:636][976]LogNet: Browse: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2016.01.09-04.47.31:636][976]LogNet:Warning: Travel Failure: [InvalidURL]: 잘못된 URL: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2016.01.09-04.47.31:636][976]LogNet:Warning: 트래블 실패: InvalidURL, 실패 이유: '잘못된 URL: /Game/SideScrollerBP/Maps/SideScrollerExampleMap'. PIE 종료.
+[2016.01.09-04.47.31:636][976]PIE:Warning: 경고 트래블 실패: InvalidURL, 실패 이유: '잘못된 URL: /Game/SideScrollerBP/Maps/SideScrollerExampleMap'. PIE 종료.
+[2016.01.09-04.47.31:636][976]LogNet:Warning: Travel Failure: [ClientTravelFailure]: 잘못된 URL: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2016.01.09-04.47.31:636][976]LogNet:Warning: 트래블 실패: ClientTravelFailure, 실패 이유: '잘못된 URL: /Game/SideScrollerBP/Maps/SideScrollerExampleMap'. PIE 종료.
+[2016.01.09-04.47.31:636][976]PIE:Warning: 경고 트래블 실패: ClientTravelFailure, 실패 이유: '잘못된 URL: /Game/SideScrollerBP/Maps/SideScrollerExampleMap'. PIE 종료.
+[2016.01.09-04.47.31:637][976]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.47.31:691][976]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.47.31:749][976]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003FF45E0
+[2016.01.09-04.47.36:656][ 96]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.09-04.47.41:052][223]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_17
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.47.41:052][223]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_17
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.47.41:053][223]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_17
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.47.41:053][223]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_17
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.47.41:053][223]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_17
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.47.41:053][223]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_17
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.47.55:697][522]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.47.55:697][522]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.01.09-04.47.55:701][522]LogPlayLevel: [PlayLevel] Compiling umg_end before play...
+[2016.01.09-04.47.55:746][522]LogPlayLevel: PlayLevel: Blueprint regeneration took 49 ms (2 blueprints)
+[2016.01.09-04.47.55:747][522]LogPlayLevel: [PlayLevel] Compiling BP_Charater before play...
+[2016.01.09-04.47.55:825][522]LogPlayLevel: PlayLevel: Blueprint regeneration took 127 ms (5 blueprints)
+[2016.01.09-04.47.55:825][522]LogPlayLevel: [PlayLevel] Compiling BP_arrow before play...
+[2016.01.09-04.47.55:879][522]LogPlayLevel: PlayLevel: Blueprint regeneration took 182 ms (6 blueprints)
+[2016.01.09-04.47.55:879][522]LogPlayLevel: [PlayLevel] Compiling BP_bomb before play...
+[2016.01.09-04.47.55:928][522]LogPlayLevel: PlayLevel: Blueprint regeneration took 231 ms (7 blueprints)
+[2016.01.09-04.47.55:929][522]LogPlayLevel: [PlayLevel] Compiling bp_profile before play...
+[2016.01.09-04.47.55:978][522]LogPlayLevel: PlayLevel: Blueprint regeneration took 281 ms (7 blueprints)
+[2016.01.09-04.47.55:979][522]LogPlayLevel: [PlayLevel] Compiling BP_spawnArrow before play...
+[2016.01.09-04.47.56:024][522]LogPlayLevel: PlayLevel: Blueprint regeneration took 327 ms (7 blueprints)
+[2016.01.09-04.47.56:025][522]LogPlayLevel: [PlayLevel] Compiling bp_spawrnActor2 before play...
+[2016.01.09-04.47.56:072][522]LogPlayLevel: PlayLevel: Blueprint regeneration took 375 ms (7 blueprints)
+[2016.01.09-04.47.56:072][522]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.47.56:072][522]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.47.56:110][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000307D9D00
+[2016.01.09-04.47.56:116][522]PIE: New page: PIE 세션: menu (2016. 1. 9. 오후 10:47:56)
+[2016.01.09-04.47.56:116][522]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_menu
+[2016.01.09-04.47.56:119][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002543s)
+[2016.01.09-04.47.56:119][522]LogAIModule: Creating AISystem for world menu
+[2016.01.09-04.47.56:119][522]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2016.01.09-04.47.56:120][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/menu.menu to /Game/Map/UEDPIE_0_menu.menu (0.003386s)
+[2016.01.09-04.47.56:158][522]LogInit: XAudio2 using '스피커(VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.09-04.47.56:170][522]LogInit: FAudioDevice initialized.
+[2016.01.09-04.47.56:207][522]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.01.09-04.47.56:208][522]LogWorld: Bringing World /Game/Map/UEDPIE_0_menu.menu up for play (max tick rate 60) at 2016.01.09-13.47.56
+[2016.01.09-04.47.56:208][522]LogActor:Warning: GameSession /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.47.56:209][522]LogActor:Warning: GameNetworkManager /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.47.56:209][522]LogWorld: Bringing up level for play took: 0.000650
+[2016.01.09-04.47.56:240][522]PIE: 정보 /Game/Map/UEDPIE_0_menu 에 대한 에디터에서 플레이 시작 시간: 0.414
+[2016.01.09-04.47.56:240][522]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.47.57:808][558]LogPackageName: SearchForPackageOnDisk took   0.054s to resolve test.umap.
+[2016.01.09-04.47.57:854][558]LogPackageName: SearchForPackageOnDisk took   0.045s to resolve test.umap.
+[2016.01.09-04.47.57:855][558]LogNet: Browse: /Game/Map/test
+[2016.01.09-04.47.57:855][558]LogLoad: LoadMap: /Game/Map/test
+[2016.01.09-04.47.57:895][558]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000325994E0
+[2016.01.09-04.47.57:895][558]Cmd: MEM
+[2016.01.09-04.47.57:931][558]LogMemory: Platform Memory Stats for Windows
+[2016.01.09-04.47.57:931][558]LogMemory: Process Physical Memory: 1106.80 MB used, 1117.10 MB peak
+[2016.01.09-04.47.57:932][558]LogMemory: Process Virtual Memory: 1008.96 MB used, 1016.95 MB peak
+[2016.01.09-04.47.57:932][558]LogMemory: Physical Memory: 3896.50 MB used, 8114.86 MB total
+[2016.01.09-04.47.57:932][558]LogMemory: Virtual Memory: 1675.79 MB used, 8388608.00 MB total
+[2016.01.09-04.47.57:932][558]LogMemory: 
+[2016.01.09-04.47.57:932][558]Allocator Stats for TBB: (not implemented)
+[2016.01.09-04.47.57:938][558]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.47.57:939][558]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.47.57:940][558]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.47.57:941][558]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.47.57:942][558]LogLinker:Warning: Asset '../../../../../../MJY/scollo12274/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-04.47.58:051][558]LogAIModule: Creating AISystem for world test
+[2016.01.09-04.47.58:051][558]LogWorld: Game class is 'BP_Gamemode_C'
+[2016.01.09-04.47.58:056][558]LogWorld: Bringing World /Game/Map/UEDPIE_0_test.test up for play (max tick rate 60) at 2016.01.09-13.47.58
+[2016.01.09-04.47.58:056][558]LogActor:Warning: GameSession /Game/Map/UEDPIE_0_test.test:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.47.58:056][558]LogActor:Warning: GameNetworkManager /Game/Map/UEDPIE_0_test.test:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.47.58:056][558]LogWorld: Bringing up level for play took: 0.004533
+[2016.01.09-04.47.58:933][574]LogBlueprintUserMessages: [BP_Charater_C_0] 10
+[2016.01.09-04.47.59:751][588]LogBlueprintUserMessages: [BP_Charater_C_0] 20
+[2016.01.09-04.48.01:307][614]LogBlueprintUserMessages: [BP_Charater_C_0] 30
+[2016.01.09-04.48.01:938][624]LogBlueprintUserMessages: [BP_Charater_C_0] 40
+[2016.01.09-04.48.02:311][630]LogBlueprintUserMessages: [BP_Charater_C_0] 50
+[2016.01.09-04.48.02:888][640]LogBlueprintUserMessages: [BP_Charater_C_0] 60
+[2016.01.09-04.48.03:702][654]LogBlueprintUserMessages: [BP_Charater_C_0] 70
+[2016.01.09-04.48.05:354][683]LogBlueprintUserMessages: [BP_Charater_C_0] 80
+[2016.01.09-04.48.06:024][693]LogPackageName: SearchForPackageOnDisk took   0.053s to resolve menu.umap.
+[2016.01.09-04.48.06:076][694]LogPackageName: SearchForPackageOnDisk took   0.047s to resolve menu.umap.
+[2016.01.09-04.48.06:076][694]LogNet: Browse: /Game/Map/menu
+[2016.01.09-04.48.06:083][694]LogLoad: LoadMap: /Game/Map/menu
+[2016.01.09-04.48.06:126][694]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A119EE0
+[2016.01.09-04.48.06:126][694]Cmd: MEM
+[2016.01.09-04.48.06:161][694]LogMemory: Platform Memory Stats for Windows
+[2016.01.09-04.48.06:161][694]LogMemory: Process Physical Memory: 1119.48 MB used, 1130.84 MB peak
+[2016.01.09-04.48.06:161][694]LogMemory: Process Virtual Memory: 1020.18 MB used, 1031.62 MB peak
+[2016.01.09-04.48.06:161][694]LogMemory: Physical Memory: 3907.28 MB used, 8114.86 MB total
+[2016.01.09-04.48.06:161][694]LogMemory: Virtual Memory: 1686.91 MB used, 8388608.00 MB total
+[2016.01.09-04.48.06:161][694]LogMemory: 
+[2016.01.09-04.48.06:161][694]Allocator Stats for TBB: (not implemented)
+[2016.01.09-04.48.06:161][694]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_menu
+[2016.01.09-04.48.06:164][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002786s)
+[2016.01.09-04.48.06:165][694]LogAIModule: Creating AISystem for world menu
+[2016.01.09-04.48.06:165][694]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2016.01.09-04.48.06:165][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/menu.menu to /Game/Map/UEDPIE_0_menu.menu (0.003610s)
+[2016.01.09-04.48.06:165][694]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.01.09-04.48.06:166][694]LogWorld: Bringing World /Game/Map/UEDPIE_0_menu.menu up for play (max tick rate 60) at 2016.01.09-13.48.06
+[2016.01.09-04.48.06:166][694]LogActor:Warning: GameSession /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.48.06:166][694]LogActor:Warning: GameNetworkManager /Game/Map/UEDPIE_0_menu.menu:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-04.48.06:166][694]LogWorld: Bringing up level for play took: 0.000745
+[2016.01.09-04.48.06:167][694]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.01.09-04.48.08:134][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.48.08:164][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/Map/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/Map/menu.menu_C' with ClassGeneratedBy '/Game/Map/menu.menu:PersistentLevel.menu'
+[2016.01.09-04.48.08:226][743]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DB96E80
+[2016.01.09-04.48.20:200][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/menu" FILE="../../../../../../MJY/scollo12274/Content/Map/menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.09-04.48.20:305][ 19]LogSavePackage: Save=63.017899ms
+[2016.01.09-04.48.20:305][ 19]LogSavePackage: Moving '../../../../../../MJY/scollo12274/Saved/menu61FB6ADF4C0A3E5DB959BD81EE6AB765.tmp' to '../../../../../../MJY/scollo12274/Content/Map/menu.umap'
+[2016.01.09-04.48.20:307][ 19]LogSavePackage: Total save time: 67.569997ms
+[2016.01.09-04.48.20:307][ 19]LogSavePackage:Warning: Finished SavePackage ../../../../../../MJY/scollo12274/Content/Map/menu.umap
+[2016.01.09-04.48.20:354][ 19]LogFileHelpers: Saving map 'menu' took 0.211
+[2016.01.09-04.48.20:359][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/umg_end" FILE="../../../../../../MJY/scollo12274/Content/Blueprints/umg_end.uasset" SILENT=true
+[2016.01.09-04.48.20:380][ 19]LogSavePackage: Save=17.801544ms
+[2016.01.09-04.48.20:380][ 19]LogSavePackage: Moving '../../../../../../MJY/scollo12274/Saved/umg_end8031831141D7812B4C8E31ABD0768C73.tmp' to '../../../../../../MJY/scollo12274/Content/Blueprints/umg_end.uasset'
+[2016.01.09-04.48.20:382][ 19]LogSavePackage: Total save time: 21.903686ms
+[2016.01.09-04.48.20:382][ 19]LogSavePackage:Warning: Finished SavePackage ../../../../../../MJY/scollo12274/Content/Blueprints/umg_end.uasset
+[2016.01.09-04.48.25:390][153]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_19
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.48.25:391][153]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_19
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.48.25:391][153]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_19
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.48.25:391][153]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_19
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.48.25:391][153]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_19
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.48.25:391][153]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_19
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.49.39:770][ 48]LogEditorViewport: Clicking Background
+[2016.01.09-04.49.40:407][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.49.40:408][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.49.40:447][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037F03240
+[2016.01.09-04.49.40:448][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037F031A0
+[2016.01.09-04.49.40:450][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C974D60
+[2016.01.09-04.49.40:450][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A058180
+[2016.01.09-04.49.40:451][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A058F40
+[2016.01.09-04.49.40:948][ 78]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_21
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.49.40:948][ 78]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_21
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.49.40:948][ 78]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_21
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.49.40:949][ 78]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_21
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.49.40:949][ 78]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_21
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.49.40:949][ 78]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_21
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.49.41:291][ 82]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.49.41:292][ 82]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.49.41:351][ 82]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_22
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.49.41:351][ 82]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_22
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.49.41:351][ 82]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_22
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.49.41:351][ 82]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_22
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.49.41:351][ 82]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_22
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.49.41:351][ 82]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_22
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.49.41:545][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.49.41:546][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.49.41:604][ 85]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_23
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.49.41:604][ 85]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_23
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.49.41:604][ 85]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_23
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.49.41:604][ 85]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_23
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.49.41:604][ 85]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_23
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.49.41:604][ 85]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_23
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.49.43:049][113]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.49.43:051][113]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.49.43:130][113]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_24
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.49.43:130][113]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_24
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.49.43:130][113]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_24
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.49.43:130][113]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_24
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:009C
+[2016.01.09-04.49.43:130][113]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_24
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:00CA
+[2016.01.09-04.49.43:131][113]LogScript:Warning: Accessed None 'CallFunc_TryGetPawnOwner_ReturnValue'
+	UE4_Mannequin_Skeleton_AnimBlueprint_C /Engine/Transient.CharacterMesh0:UE4_Mannequin_Skeleton_AnimBlueprint_C_24
+	Function /Game/Animation/UE4_Mannequin_Skeleton_AnimBlueprint.UE4_Mannequin_Skeleton_AnimBlueprint_C:ExecuteUbergraph_UE4_Mannequin_Skeleton_AnimBlueprint:012D
+[2016.01.09-04.49.44:826][153]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.09-04.49.44:827][153]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.09-04.49.45:732][154]Cmd: QUIT_EDITOR
+[2016.01.09-04.49.46:047][154]LogExit: Preparing to exit.
+[2016.01.09-04.49.46:487][154]LogExit: Editor shut down
+[2016.01.09-04.49.46:487][154]LogExit: Transaction tracking system shut down
+[2016.01.09-04.49.46:490][154]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B487880
+[2016.01.09-04.49.46:490][154]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023D79A80
+[2016.01.09-04.49.46:491][154]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023D79080
+[2016.01.09-04.49.46:491][154]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023D78900
+[2016.01.09-04.49.46:491][154]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001283A200
+[2016.01.09-04.49.46:499][154]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000324D7CE0
+[2016.01.09-04.49.46:680][154]LogExit: Object subsystem successfully closed.
+[2016.01.09-04.49.46:694][154]LogD3D11RHI: Shutdown
+[2016.01.09-04.49.46:694][154]LogD3D11RHI: CleanupD3DDevice
+[2016.01.09-04.49.46:737][154]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.09-04.49.46:751][154]LogModuleManager: Shutting down and abandoning module SequencerWidgets (199)
+[2016.01.09-04.49.46:751][154]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2016.01.09-04.49.46:751][154]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.01.09-04.49.46:751][154]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.01.09-04.49.46:751][154]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.01.09-04.49.46:751][154]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.01.09-04.49.46:751][154]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.01.09-04.49.46:752][154]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.01.09-04.49.46:752][154]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.01.09-04.49.46:752][154]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2016.01.09-04.49.46:752][154]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2016.01.09-04.49.46:752][154]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2016.01.09-04.49.46:752][154]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2016.01.09-04.49.46:752][154]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2016.01.09-04.49.46:752][154]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2016.01.09-04.49.46:752][154]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2016.01.09-04.49.46:753][154]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2016.01.09-04.49.46:753][154]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2016.01.09-04.49.46:753][154]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2016.01.09-04.49.46:753][154]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2016.01.09-04.49.46:753][154]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2016.01.09-04.49.46:753][154]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2016.01.09-04.49.46:753][154]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2016.01.09-04.49.46:753][154]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2016.01.09-04.49.46:753][154]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2016.01.09-04.49.46:753][154]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2016.01.09-04.49.46:753][154]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2016.01.09-04.49.46:753][154]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2016.01.09-04.49.47:259][154]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2016.01.09-04.49.47:259][154]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2016.01.09-04.49.47:259][154]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2016.01.09-04.49.47:259][154]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2016.01.09-04.49.47:259][154]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2016.01.09-04.49.47:259][154]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2016.01.09-04.49.47:259][154]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2016.01.09-04.49.47:259][154]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2016.01.09-04.49.47:259][154]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2016.01.09-04.49.47:259][154]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2016.01.09-04.49.47:259][154]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2016.01.09-04.49.47:259][154]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2016.01.09-04.49.47:260][154]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2016.01.09-04.49.47:260][154]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2016.01.09-04.49.47:260][154]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2016.01.09-04.49.47:260][154]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2016.01.09-04.49.47:260][154]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2016.01.09-04.49.47:260][154]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2016.01.09-04.49.47:260][154]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2016.01.09-04.49.47:260][154]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2016.01.09-04.49.47:260][154]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2016.01.09-04.49.47:261][154]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2016.01.09-04.49.47:261][154]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2016.01.09-04.49.47:261][154]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2016.01.09-04.49.47:261][154]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2016.01.09-04.49.47:261][154]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2016.01.09-04.49.47:261][154]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2016.01.09-04.49.47:261][154]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2016.01.09-04.49.47:261][154]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2016.01.09-04.49.47:261][154]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2016.01.09-04.49.47:261][154]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2016.01.09-04.49.47:261][154]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2016.01.09-04.49.47:262][154]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2016.01.09-04.49.47:262][154]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2016.01.09-04.49.47:262][154]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2016.01.09-04.49.47:262][154]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2016.01.09-04.49.47:266][154]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2016.01.09-04.49.47:267][154]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2016.01.09-04.49.47:267][154]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2016.01.09-04.49.47:267][154]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2016.01.09-04.49.47:267][154]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2016.01.09-04.49.47:267][154]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2016.01.09-04.49.47:267][154]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2016.01.09-04.49.47:267][154]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2016.01.09-04.49.47:267][154]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2016.01.09-04.49.47:267][154]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2016.01.09-04.49.47:267][154]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2016.01.09-04.49.47:267][154]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2016.01.09-04.49.47:267][154]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2016.01.09-04.49.47:267][154]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2016.01.09-04.49.47:439][154]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2016.01.09-04.49.47:439][154]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2016.01.09-04.49.47:439][154]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2016.01.09-04.49.47:439][154]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2016.01.09-04.49.47:439][154]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2016.01.09-04.49.47:439][154]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2016.01.09-04.49.47:439][154]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2016.01.09-04.49.47:439][154]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2016.01.09-04.49.47:454][154]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2016.01.09-04.49.47:454][154]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2016.01.09-04.49.47:454][154]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2016.01.09-04.49.47:455][154]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.01.09-04.49.47:456][154]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2016.01.09-04.49.47:456][154]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2016.01.09-04.49.47:458][154]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2016.01.09-04.49.47:459][154]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2016.01.09-04.49.47:580][154]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2016.01.09-04.49.47:581][154]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2016.01.09-04.49.47:581][154]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.09-04.49.47:681][154]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.09-04.49.47:681][154]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.09-04.49.47:681][154]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.09-04.49.47:690][154]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.09-04.49.47:690][154]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.09-04.49.47:691][154]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.09-04.49.47:691][154]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.09-04.49.47:691][154]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.09-04.49.47:691][154]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.09-04.49.47:691][154]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.09-04.49.47:691][154]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.09-04.49.47:691][154]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.09-04.49.47:691][154]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.09-04.49.47:691][154]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.09-04.49.47:691][154]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.09-04.49.47:691][154]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.09-04.49.47:691][154]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.09-04.49.47:691][154]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.09-04.49.47:691][154]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.09-04.49.47:695][154]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.09-04.49.47:695][154]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.09-04.49.47:695][154]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.09-04.49.47:696][154]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.09-04.49.47:696][154]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.09-04.49.47:696][154]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.09-04.49.47:696][154]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.09-04.49.47:696][154]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.09-04.49.47:696][154]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.09-04.49.47:696][154]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.09-04.49.47:697][154]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.09-04.49.47:753][154]LogDerivedDataCache: Shutdown
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.09-04.49.47:753][154]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.09-04.49.47:754][154]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.09-04.49.47:754][154]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.09-04.49.47:754][154]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.09-04.49.47:754][154]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.09-04.49.47:754][154]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.09-04.49.47:754][154]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.09-04.49.47:754][154]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.09-04.49.47:754][154]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.09-04.49.47:754][154]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.09-04.49.47:754][154]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.09-04.49.47:754][154]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.09-04.49.47:754][154]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.09-04.49.47:754][154]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.09-04.49.47:754][154]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.09-04.49.47:754][154]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.09-04.49.48:755][154]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.09-04.49.48:755][154]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.09-04.49.48:755][154]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.09-04.49.48:755][154]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.09-04.49.48:755][154]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.09-04.49.48:755][154]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.09-04.49.48:761][154]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.09-04.49.48:761][154]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.09-04.49.48:761][154]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.09-04.49.48:761][154]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.09-04.49.48:761][154]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.09-04.49.48:761][154]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.09-04.49.48:761][154]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.09-04.49.48:761][154]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.09-04.49.48:761][154]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.09-04.49.48:761][154]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.09-04.49.48:763][154]LogExit: Exiting.
+[2016.01.09-04.49.48:800][154]Log file closed, 01/09/16 13:49:48
